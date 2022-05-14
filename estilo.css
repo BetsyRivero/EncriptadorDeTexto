@@ -1,0 +1,155 @@
+body {
+    background-color: #C0CBDE;
+   
+}
+
+input {
+
+cursor: pointer;	
+font-size: 18px;
+font-weight: bold;
+margin: 10px auto 0;
+height: 100px;
+overflow: hidden;
+padding: 15px;
+position: relative;
+text-align: center;
+width: 700px;	
+left: 35px;
+border-radius: 5px;
+border: 0;
+box-shadow: 0px 10px 10px 0px #284D78;
+
+}
+input:focus{
+	outline:none;
+
+}
+
+textarea {
+display: inline-block;
+position: relative;
+margin: 10px auto 0;
+cursor: pointer;	
+border-radius: 5px;
+width: 30%;
+left: 50px;
+height: 400px;
+resize: none;
+border: 0;
+box-sizing: border-box;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+padding: 15px;
+box-shadow: 15px 15px 10px #284D78;
+}
+
+textarea:focus{
+	outline:none;
+}
+
+
+.muñeco:placeholder-shown{
+	background-size: 320px 300px;
+	background-image: url('imagenes/Muñeco.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+
+}
+
+.header {
+    height: 30px;
+    clear: left;
+    padding: 10px; 
+    background-image: url('imagenes/Logo.png');
+    background-repeat: no-repeat;
+    margin: 20px;
+        
+}
+
+p{
+	display: inline-block;
+	position: relative;
+	color: #000000;
+	font-size:12px;
+	top: 260px;
+	left: -10%;
+}
+
+.principal {
+    position: relative;
+    height: 500px;
+    float: left;
+    width: 800px;
+ 
+}
+
+.botones{
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	top: 300px;
+	left: 30%;
+	color: #284D78;
+	text-align: center;
+	text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid #284D78;
+    clear: left;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+.botones:hover {
+	background-color: #284D78;
+  	color: #ffffff;
+}
+
+.botonCopiar{
+	display: inline-block;
+	position: relative;
+	width: 8%;
+	top: 60px;
+	left: -15%;
+	color: #284D78;
+	text-align: center;
+	text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid #284D78;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+
+.botonCopiar:hover {
+	background-color: #284D78;
+  	color: #ffffff;
+}
+
+
+.footer {
+    height: 65px;
+    clear: left;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #25282B;
+   
+}
+
+.img {
+
+width: 40px;
+padding:5px;
+}
+
+
+
